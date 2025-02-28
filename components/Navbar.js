@@ -11,7 +11,6 @@ const Navbar = () => {
         <li><Link href="/about">À propos</Link></li>
         <li><Link href="/work">Nos solutions</Link></li>
         <li><Link href="/team">Notre équipe</Link></li>
-        <li><Link href="/blog">Blog</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
     </nav>

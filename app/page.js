@@ -23,9 +23,18 @@ export default function Home() {
                 height={500}/>
             <div className="content">
               <p className="mt-4 text-lg md:text-xl">
-              {`Des solutions SaaS intelligentes pour une agriculture plus performante et durable.`}`
+              {`Des solutions SaaS intelligentes pour une agriculture plus performante et durable. Ci-après 3 exemples de solutions IA 
+              pour l'agriculture en cours de constructions:`}
               </p>
+              <p>
+            <Link href="https://testai-app-app-intelligent-soil-analysis-optimize-crops-jtx9km.streamlit.app/">
+                <button className="mt-6 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">
+                Modele IA pour l'analyse des sols
+                </button>
+            </Link>
+            </p>
             </div>
+            
             <footer>
               <Link href="/contact">
                 <button className="mt-6 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">

@@ -3,9 +3,11 @@ import "../../app/globals.css";
 
 const Work = () => {
     return (<Layout>
+            
             <div>
-                <h1 className="text-2xl font-bold">Nos solutions</h1>
-                <p>{`Chez [Nom de ta startup], nous développons des solutions basées sur l’intelligence artificielle pour répondre
+                <h1 className="text-2xl font-bold">Nos solutions</h1> 
+            
+                <p>{`Chez TestAI, nous développons des solutions basées sur l’intelligence artificielle pour répondre
                      aux défis majeurs de l’agriculture moderne. Nos applications SaaS sont conçues pour aider les agriculteurs, 
                      coopératives et entreprises agroalimentaires à optimiser leurs performances, réduire les pertes et améliorer 
                      la durabilité de leurs exploitations.`}</p>
@@ -28,7 +30,7 @@ const Work = () => {
                 <p className="mt-4">{item.desc}</p>
               </div>
             ))}
-          </div>
+            </div>
           <div className="grid md:grid-cols-3 gap-8 mt-8 content">
             {[
               { title: "Prédiction Climatique et Gestion des Risques", 
