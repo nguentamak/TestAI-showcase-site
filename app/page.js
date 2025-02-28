@@ -89,7 +89,7 @@ export default function Home() {
         {/* APPEL À L'ACTION */}
         <article className="card">
           <header>
-            <h1 className="text-3xl font-bold text-green-800">Prêt à transformer votre exploitation ?</h1>
+            <h1 className="text-3xl font-bold text-green-800">{`Prêt à transformer votre exploitation ?`}</h1>
           </header>
           <Image
                 src="/images/tractor-green-grass-field.jpg"
@@ -98,13 +98,13 @@ export default function Home() {
                 height={500} />
           <div className="content">
             <p className="mt-4 text-lg text-gray-600">
-            Découvrez comment l'IA peut optimiser vos rendements agricoles.
+            {`Découvrez comment l'IA peut optimiser vos rendements agricoles.`}
             </p>
           </div>
           <footer>
             <Link href="/contact">
               <button className="mt-6 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">
-              Demander une démo
+              {`Demander une démo`}
               </button>
             </Link>
           </footer>
