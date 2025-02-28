@@ -1,19 +1,22 @@
+import Layout from "../../components/Layout";
+import "../../app/globals.css";
+
 const Contact = () => {
-    return (<div>
+    return ( <Layout><div>
       <h1 className="text-2xl font-bold">Contactez-nous</h1>
       <form action="/my-handling-form-page" method="post">
       <div>
-        <label for="name">Name:</label>
+        <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="user_name" />
       </div>
     
       <div>
-        <label for="mail">Email:</label>
+        <label htmlFor="mail">Email:</label>
         <input type="email" id="mail" name="user_email" />
       </div>
     
       <div>
-        <label for="msg">Message:</label>
+        <label htmlFor="msg">Message:</label>
         <textarea id="msg" name="user_message"></textarea>
       </div>
     
@@ -21,7 +24,7 @@ const Contact = () => {
         <button type="submit">Send your message</button>
       </div>
     </form>
-    </div>
+    </div> </Layout>
     );
   };
   
