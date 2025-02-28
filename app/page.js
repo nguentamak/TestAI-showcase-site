@@ -12,7 +12,7 @@ export default function Home() {
         {/* HERO SECTION */}
         <article className="card">
             <header>
-              <h1 className="text-12xl md:text-12xl font-bold">
+              <h1 className="text-3xl font-bold text-green-800">
               {`Révolutionnez l'Agriculture avec l'IA`} 🚀
               </h1>
             </header>
@@ -39,7 +39,7 @@ export default function Home() {
         {/* NOS SOLUTIONS */}
         <article className="card">
           <header>
-            <h1 className="text-9xl font-bold text-green-800">{`Nos solutions IA pour l’agriculture`}</h1>
+            <h1 className="text-3xl font-bold text-green-800">{`Nos solutions IA pour l’agriculture`}</h1>
           </header>
           <Image
                 src="/images/farmer-inspecting-health-crops-using.jpg"
