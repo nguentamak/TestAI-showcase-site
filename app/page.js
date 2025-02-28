@@ -2,8 +2,6 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -15,7 +13,7 @@ export default function Home() {
         <article className="card">
             <header>
               <h1 className="text-12xl md:text-12xl font-bold">
-              Révolutionnez l'Agriculture avec l'IA 🚀
+              {`Révolutionnez l'Agriculture avec l'IA`} 🚀
               </h1>
             </header>
             <Image
@@ -25,7 +23,7 @@ export default function Home() {
                 height={500}/>
             <div className="content">
               <p className="mt-4 text-lg md:text-xl">
-              Des solutions SaaS intelligentes pour une agriculture plus performante et durable.
+              {`Des solutions SaaS intelligentes pour une agriculture plus performante et durable.`}`
               </p>
             </div>
             <footer>
@@ -41,7 +39,7 @@ export default function Home() {
         {/* NOS SOLUTIONS */}
         <article className="card">
           <header>
-            <h1 className="text-9xl font-bold text-green-800">Nos solutions IA pour l’agriculture</h1>
+            <h1 className="text-9xl font-bold text-green-800">{`Nos solutions IA pour l’agriculture`}</h1>
           </header>
           <Image
                 src="/images/farmer-inspecting-health-crops-using.jpg"
@@ -66,7 +64,7 @@ export default function Home() {
         {/* POURQUOI NOUS CHOISIR */}
         <article className="card">
           <header>
-            <h1 className="text-3xl font-bold text-green-800">Pourquoi nous choisir ?</h1>
+            <h1 className="text-3xl font-bold text-green-800">{`Pourquoi nous choisir ?`}</h1>
           </header>
           <Image
                 src="/images/sonar-panels-green-crops-field.jpg"
