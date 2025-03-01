@@ -1,14 +1,17 @@
 import Layout from "../../components/Layout";
 import "../../app/globals.css";
+import Image from "next/image";
 
 const Team = () => {
     return (<Layout>
                     <h1 className="text-2xl font-bold">{`Rencontrez notre équipe`}</h1>
                     <div className="media">
                           <div className="image">
-                              <img
+                              <Image
                                 alt="A colorful balloon against a blue sky"
-                                src="https://mdn.github.io/shared-assets/images/examples/balloon.jpg" />
+                                src="https://mdn.github.io/shared-assets/images/examples/balloon.jpg"
+                                width={800} 
+                                height={500} />
                           </div>
                           <div className="content">
                               <div className="grid md:grid-cols-3 gap-8 mt-8 content">

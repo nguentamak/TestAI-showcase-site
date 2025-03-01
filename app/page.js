@@ -29,7 +29,7 @@ export default function Home() {
               <p>
             <Link href="https://testai-app-app-intelligent-soil-analysis-optimize-crops-jtx9km.streamlit.app/">
                 <button className="mt-6 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">
-                Modele IA pour l'analyse des sols
+                {`Modele IA pour l'analyse des sols`}
                 </button>
             </Link>
             </p>
@@ -37,7 +37,7 @@ export default function Home() {
             <p>
             <Link href="https://testai-app-app-irrigation-optimization-l7dlvx8fqzagsy8tuacaed.streamlit.app/">
                 <button className="mt-6 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">
-                Modele IA pour optimiser l'irrigation
+                {`Modele IA pour optimiser l'irrigation`}
                 </button>
             </Link>
             </p>
