@@ -9,7 +9,7 @@ const Team = () => {
                           <div className="image">
                               <Image
                                 alt="A colorful balloon against a blue sky"
-                                src="https://mdn.github.io/shared-assets/images/examples/balloon.jpg"
+                                src=""
                                 width={800} 
                                 height={500} />
                           </div>
