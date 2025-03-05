@@ -6,6 +6,7 @@ export default function About() {
     <Layout>
     <div>
       <h1 className="text-2xl font-bold">{`À propos de nous`}</h1>
+      
       <p>{`Chez TestAI, nous révolutionnons l'agriculture grâce à l'intelligence artificielle. 
            Notre mission est d'accompagner les agriculteurs, coopératives et entreprises du secteur agroalimentaire
           dans l'optimisation de leurs opérations grâce à des solutions SaaS innovantes et adaptées à leurs besoins.`}</p>
@@ -17,6 +18,7 @@ export default function About() {
            de maximiser leur rendement tout en minimisant leur impact environnemental. 
            Notre engagement : rendre l'intelligence artificielle accessible et utile à tous les acteurs du secteur agricole.`}</p>
       <p>{`Rejoignez-nous dans cette aventure et découvrez comment nos solutions peuvent transformer votre activité agricole !`}</p>
+      
     </div>
     </Layout>
   );

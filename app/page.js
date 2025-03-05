@@ -50,7 +50,8 @@ export default function Home() {
             </Link>
             </p>
             </div>
-            
+            <p>Tel: +33 07 52 88 00 95</p>
+    <p>Email: ngue.ntamak@gmail.com </p>
             <footer>
               <Link href="/contact">
                 <button className="mt-6 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-lg transition">

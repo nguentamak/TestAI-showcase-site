@@ -2,7 +2,8 @@ import Layout from "../../components/Layout";
 import "../../app/globals.css";
 
 const Contact = () => {
-    return ( <Layout><div>
+    return ( 
+    <Layout><div>
       <h1 className="text-2xl font-bold">Contactez-nous</h1>
       <form action="/my-handling-form-page" method="post">
       <div>
@@ -23,8 +24,13 @@ const Contact = () => {
       <div className="button">
         <button type="submit">Send your message</button>
       </div>
+      <div><p>Tel: +33 07 52 88 00 95</p>
+    <p>Email: ngue.ntamak@gmail.com </p>
+    </div>
     </form>
-    </div> </Layout>
+     
+    </div> 
+    </Layout>
     );
   };
   
