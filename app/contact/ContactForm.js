@@ -1,5 +1,4 @@
 "use client"; // Ajoutez cette directive en haut du fichier
-import Layout from "../../components/Layout";
 import "../../app/globals.css";
 // components/ContactForm.js
 import { useState } from 'react';
@@ -36,7 +35,7 @@ export default function ContactForm() {
       } else {
         setStatus('Une erreur s\'est produite. Veuillez réessayer.');
       }
-    } catch (error) {
+    } catch (_error) {
       setStatus('Une erreur s\'est produite. Veuillez réessayer.');
     }
   };
