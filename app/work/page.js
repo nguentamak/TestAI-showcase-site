@@ -5,7 +5,7 @@ const Work = () => {
     return (<Layout>
             
             <div>
-                <h1 className="text-2xl font-bold">Nos solutions</h1> 
+                <h1 className="text-2xl font-bold">Our solutions</h1> 
             
                 <p>{`Chez TestAI, nous développons des solutions basées sur l’intelligence artificielle pour répondre
                      aux défis majeurs de l’agriculture moderne. Nos applications SaaS sont conçues pour aider les agriculteurs, 
