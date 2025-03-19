@@ -35,7 +35,8 @@ export default function ContactForm() {
       } else {
         setStatus('Une erreur s\'est produite. Veuillez réessayer.');
       }
-    } catch (_error) {
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi du message:', error); // Ajout du log
       setStatus('Une erreur s\'est produite. Veuillez réessayer.');
     }
   };
